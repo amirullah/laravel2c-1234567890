@@ -17,4 +17,8 @@ class PageController extends Controller
     {
         return "halaman tampil";
     }
+    public function beranda()
+    {
+        return view('beranda');
+    }
 }
